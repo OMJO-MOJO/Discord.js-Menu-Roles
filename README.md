@@ -18,7 +18,7 @@ Before we can run the bot, we need to complete a few steps, follow the commands 
 
 2. Navigate into the bot files
 
-```cmd
+```
    cd Discord.js-Menu-Roles
 ```
 
@@ -45,7 +45,7 @@ COLOR=0x5865f2
 
 ## 🔥 - Running your bot
 
-```cmd
+```
 npm run start
 ```
 
