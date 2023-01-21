@@ -1,0 +1,24 @@
+{
+   "name": "discord.js-menu-roles",
+   "version": "1.0.0",
+   "description": "A Discord.js v14 bot that creates a select menu in your server for members to select some self roles, similar to reaction roles.",
+   "main": "src/index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/OMJO-MOJO/Discord.js-Menu-Roles.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/OMJO-MOJO/Discord.js-Menu-Roles/issues"
+   },
+   "homepage": "https://github.com/OMJO-MOJO/Discord.js-Menu-Roles#readme",
+   "dependencies": {
+      "discord.js": "^14.7.1",
+      "dotenv": "^16.0.3"
+   }
+}
