@@ -10,8 +10,11 @@
       "type": "git",
       "url": "git+https://github.com/OMJO-MOJO/Discord.js-Menu-Roles.git"
    },
-   "keywords": [],
-   "author": "",
+   "keywords": [
+      "discord bot",
+      "menu roles"
+   ],
+   "author": "OMJO-MOJO",
    "license": "ISC",
    "bugs": {
       "url": "https://github.com/OMJO-MOJO/Discord.js-Menu-Roles/issues"
