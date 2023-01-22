@@ -90,8 +90,14 @@ module.exports = (client) => {
             .setOptions(roles)
       );
 
+      const buttons = new ActionRowBuilder().addComponents(
+         new ButtonBuilder().setCustomId("display-roles").setLabel("Display Roles").setStyle(ButtonStyle.Primary),
+
+         new ButtonBuilder().setCustomId("clear-roles").setLabel("Clear Roles").setStyle(ButtonStyle.Danger)
+      );
+
       let failedToSend = false;
-      await channel.send({ embeds: [embed], components: [menu] }).catch(() => {
+      await channel.send({ embeds: [embed], components: [menu, buttons] }).catch(() => {
          failedToSend = true;
       });
 
