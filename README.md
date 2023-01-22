@@ -30,7 +30,7 @@ Before we can run the bot, we need to complete a few steps, follow the commands 
 
 ## ⚙ - Configuration
 
-Fill out all the values.
+Rename `example.env` to `.env` and fill out all the values.
 
 ```
 # Your Bot's token/secret
